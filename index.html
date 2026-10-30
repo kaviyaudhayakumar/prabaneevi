@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bride & Groom — Wedding Invitation</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Background Music Toggle -->
+  <audio id="bg-audio" loop src="assets/bg-music.mp3"></audio>
+  <button id="music-btn" class="music-toggle" aria-label="Toggle Music">🎵</button>
+
+  <main>
+    <!-- Hero / Monogram -->
+    <section class="hero-section">
+      <img src="assets/monogram.png" alt="Couple Monogram" class="monogram">
+      <p class="subtitle">WEDDING CELEBRATION</p>
+    </section>
+
+    <!-- Couple Details -->
+    <section class="names-section">
+      <p class="invite-text">Together with their families</p>
+      <h1>Bride Name</h1>
+      <p class="parents">Daughter of Mr. & Mrs. ...</p>
+      <div class="ampersand">&</div>
+      <h1>Groom Name</h1>
+      <p class="parents">Son of Mr. & Mrs. ...</p>
+    </section>
+
+    <!-- Countdown Timer -->
+    <section class="countdown-section">
+      <h2>Save The Date</h2>
+      <div id="countdown" class="countdown-grid">
+        <div><strong id="days">--</strong><span>DAYS</span></div>
+        <div><strong id="hours">--</strong><span>HOURS</span></div>
+        <div><strong id="minutes">--</strong><span>MINUTES</span></div>
+        <div><strong id="seconds">--</strong><span>SECONDS</span></div>
+      </div>
+    </section>
+
+    <!-- Event Cards -->
+    <section class="event-card">
+      <h2>Wedding Ceremony</h2>
+      <p class="event-time">Friday, Date Month Year • 4:30 PM</p>
+      <p class="venue">Venue Name<br>Full Address Here</p>
+      <a href="https://maps.google.com" target="_blank" class="map-btn">Open Map</a>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery-section">
+      <h2>Our Moments</h2>
+      <img src="assets/couple-1.jpg" alt="Couple" class="gallery-img">
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <h2>Thank You</h2>
+      <p>We look forward to celebrating with you.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
